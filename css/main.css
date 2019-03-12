@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'font-bold';
+  src: url("../fonts/bbva/BentonSansBBVA-Bold.eot");
+  src: url("../fonts/bbva/BentonSansBBVA-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/bbva/BentonSansBBVA-Bold.woff") format("woff"), url("../fonts/bbva/BentonSansBBVA-Bold.ttf") format("truetype"), url("../fonts/bbva/BentonSansBBVA-Bold.svg#open_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'font-regular';
+  src: url("../fonts/bbva/BentonSansBBVA-Book.eot");
+  src: url("../fonts/bbva/BentonSansBBVA-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/bbva/BentonSansBBVA-Book.woff") format("woff"), url("../fonts/bbva/BentonSansBBVA-Book.ttf") format("truetype"), url("../fonts/bbva/BentonSansBBVA-Book.svg#open_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* reset */
+/* line 2, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/base/_general.scss */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 6, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/base/_general.scss */
+html {
+  font-size: 62.5%;
+  font-family: "font-regular", Helvetica, Arial, sans-serif;
+}
+
+/* line 11, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/base/_general.scss */
+body {
+  font-size: 1.6rem;
+  color: #333;
+  background-color: #FFF;
+  margin: 0;
+  line-height: 1.5em;
+}
+/* line 17, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/base/_general.scss */
+body.open {
+  overflow: hidden;
+}
+
+/* line 21, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/base/_general.scss */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 25, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/base/_general.scss */
+.hidden {
+  display: none;
+}
+
+/* line 28, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/base/_general.scss */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* line 38, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/base/_general.scss */
+strong, b {
+  font-family: "font-bold", Helvetica, Arial, sans-serif;
+}
+
+/* line 41, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/base/_general.scss */
+a {
+  color: #009ee5;
+}
+
+/* line 1, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/pages/_index.scss */
+#mainHeader {
+  background-image: url("../img/bg-bt.svg");
+  height: 200px;
+  background-size: cover;
+  background-position: 50% bottom;
+}
+@media (min-width: 768px) {
+  /* line 1, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/pages/_index.scss */
+  #mainHeader {
+    min-height: 400px;
+    height: 40vh;
+  }
+}
+
+/* line 11, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/pages/_index.scss */
+main {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+/* line 15, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/pages/_index.scss */
+main h1 {
+  text-align: center;
+  color: #57b9e4;
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+@media (min-width: 768px) {
+  /* line 15, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/pages/_index.scss */
+  main h1 {
+    font-size: 40px;
+  }
+}
+/* line 23, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/pages/_index.scss */
+main h1 strong {
+  color: #025199;
+}
+/* line 27, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/pages/_index.scss */
+main p:not(last-child) {
+  margin-bottom: 1em;
+}
+/* line 30, ../../../../../Volumes/GoogleDrive/Mi unidad/01.UXers/BBVA/Betatesters-CLOSED/_maquetaBasePug/pug/scss/pages/_index.scss */
+main .small {
+  font-size: 14px;
+  font-family: "font-bold", Helvetica, Arial, sans-serif;
+}
+.change-language{
+  text-align: right;
+  margin: 20px auto;
+  padding-right: 20px;
+  max-width: 400px;
+}
+.change-language a{
+  display: inline-block;
+  padding: .5em;
+}
+
